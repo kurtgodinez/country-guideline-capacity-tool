@@ -1,0 +1,28 @@
+.page { max-width: 960px; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 24px; }
+.title { font-size: 30px; margin: 0 0 8px; }
+.asOf { font-size: 18px; font-weight: 400; color: var(--ink-muted); }
+.meta { margin: 0 0 16px; color: var(--ink-muted); font-size: 14px; }
+.page h2 { font-size: 21px; margin: 32px 0 12px; padding-top: 16px; border-top: 1px solid var(--rule); }
+.page h3 { font-size: 16px; margin: 24px 0 8px; }
+.mono { font-family: var(--font-mono); font-size: 0.88em; }
+.muted { color: var(--ink-muted); }
+.table { border-collapse: collapse; width: 100%; font-size: 13px; }
+.table th, .table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.table thead th { border-bottom: 1px solid var(--ink-muted); }
+.domainBlock { break-inside: auto; }
+.cite { font-family: var(--font-mono); font-size: 0.85em; color: var(--ink-muted); }
+.evList { margin: 0; padding-left: 16px; }
+.sources { font-size: 13px; padding-left: 20px; }
+.sources li { margin-bottom: 6px; }
+.footer { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--ink-muted); }
+.strata { overflow-x: auto; }
+.strata, .table, .card { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+
+@media print {
+  .page { max-width: none; }
+  .toolbar { display: none !important; }
+  .pageBreak { break-before: page; }
+  .table tr { break-inside: avoid; }
+  .page h2, .page h3 { break-after: avoid; }
+}

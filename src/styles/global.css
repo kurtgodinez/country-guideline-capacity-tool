@@ -56,3 +56,14 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+@media print {
+  @page { size: A4; margin: 15mm 12mm; }
+  html, body { background: #fff !important; font-size: 11pt; }
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  svg, svg * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  nav[aria-label='Main'], #root > div > footer, .no-print { display: none !important; }
+  #root > div { display: block !important; min-height: 0 !important; }
+  #main { padding: 0 !important; }
+  a { color: inherit; text-decoration: none; }
+}

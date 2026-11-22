@@ -9,7 +9,9 @@ import { Home } from './screens/Home';
 import { FrameworkScreen } from './screens/Framework';
 import { Profile } from './screens/Profile';
 import { Compare } from './screens/Compare';
-import { Placeholder } from './screens/Placeholder';
+import { Strategy } from './screens/Strategy';
+import { Reconcile } from './screens/Reconcile';
+import { Report } from './screens/Report';
 import { Workspace } from './screens/Workspace/Workspace';
 import styles from './App.module.css';
 
@@ -48,7 +50,9 @@ export default function App() {
     if (!current) page = ready ? <p>Assessment not found. <a href={paths.home()}>Back to Home</a>.</p> : null;
     else if (route.screen === 'workspace') page = <Workspace key={current.id} assessmentId={current.id} />;
     else if (route.screen === 'profile') page = <Profile key={current.id} assessmentId={current.id} />;
-    else page = <Placeholder title={`${NAV[route.screen]}: ${current.country}`} />;
+    else if (route.screen === 'strategy') page = <Strategy key={current.id} assessmentId={current.id} />;
+    else if (route.screen === 'reconcile') page = <Reconcile key={current.id} assessmentId={current.id} />;
+    else page = <Report key={current.id} assessmentId={current.id} />;
   } else page = <p>Page not found. <a href={paths.home()}>Back to Home</a>.</p>;
 
   const routeKey = route.name === 'assessment' ? `${route.id}/${route.screen}` : route.name;

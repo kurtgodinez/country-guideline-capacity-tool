@@ -1,0 +1,11 @@
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 16px 24px; }
+.card h3 { font-size: 17px; margin: 24px 0 8px; }
+.lead { font-weight: 600; margin: 0 0 8px; }
+.table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.table th, .table td { text-align: left; padding: 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.mono { font-family: var(--font-mono); font-size: 0.9em; }
+.muted { color: var(--ink-muted); }
+.blocking { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.blocking li { display: flex; align-items: center; gap: 8px; border-left: 4px solid var(--gap); padding: 4px 8px; background: var(--paper); font-size: 14px; }
+.steps { padding-left: 20px; font-size: 14px; }
+.steps li { margin-bottom: 8px; }

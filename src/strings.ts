@@ -12,4 +12,3 @@ export const NAV = {
   report: 'Report',
 } as const;
 export const EMPTY_HOME = 'No assessments yet. Create one, import a JSON file, or load a pilot.';
-export const NOT_BUILT = 'Not built yet';
