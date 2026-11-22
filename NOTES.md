@@ -11,3 +11,10 @@
 - Any comparison involving a null (unknown/n/a/unrated `stage(...)`, or an empty median) is false.
 - Next steps skip subdomains already at stage 3 (no next stage up). Blocking lists every subdomain in any rule group at stage 0, unknown or unrated.
 - **Weighted kappa.** If both raters use a single identical category, chance agreement is 1 and kappa is undefined; `linearWeightedKappa` returns `null` (also for no pairs).
+
+## Demo limitations / TODO
+
+- Lighthouse accessibility has not been formally measured (target is 95 or higher on Home, Workspace and Profile).
+- Playwright browsers were not installed in the build environment, so the e2e smoke test (`e2e/smoke.spec.ts`) is written but has not been run.
+- Print and PDF layout of the Report has not been checked across browsers.
+- Strategy rules and scoring are placeholders pending working-group agreement.
