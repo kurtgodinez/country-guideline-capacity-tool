@@ -1,0 +1,44 @@
+{
+  "status": "PLACEHOLDER. Not agreed by the working group. The tool must show this status wherever the strategy card appears.",
+  "purpose": "Turn a subdomain profile into a provisional strategy: develop guidelines from scratch, contextualise existing ones (adopt or adapt), or build foundations first.",
+  "unknownHandling": "Unknown and n/a ratings are excluded from medians and listed separately as 'evidence needed'. A group with more than half its subdomains unknown returns 'insufficient evidence' instead of a result.",
+  "groups": {
+    "produce": {
+      "label": "Capacity to produce from scratch",
+      "subdomains": ["2.1", "4.1", "4.2", "4.5", "5.3"]
+    },
+    "adapt": {
+      "label": "Capacity to contextualise",
+      "subdomains": ["5.1", "5.2", "5.4", "5.5", "6.1"]
+    },
+    "foundations": {
+      "label": "Foundations",
+      "subdomains": ["1.2", "1.3", "2.2", "2.4", "3.1"]
+    }
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "when": "median(produce) >= 2 AND stage('5.3') >= 2",
+      "result": "develop_selectively",
+      "label": "Develop from scratch for the top priorities; contextualise the rest"
+    },
+    {
+      "id": "R2",
+      "when": "median(adapt) >= 1",
+      "result": "contextualise_first",
+      "label": "Contextualise first (adopt or adapt existing guidelines) while building production capacity"
+    },
+    {
+      "id": "R3",
+      "when": "otherwise",
+      "result": "foundations_first",
+      "label": "Adopt trusted guidelines with minimal changes; invest in foundations (Domains 1, 2 and 4)"
+    }
+  ],
+  "alwaysShow": [
+    "The rule that fired and the medians behind it",
+    "Blocking subdomains: any subdomain in a rule group at stage 0 or unknown",
+    "Next steps: for the three lowest-stage subdomains, the anchor text of the next stage up (or 'anchor not yet defined')"
+  ]
+}

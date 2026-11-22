@@ -1,0 +1,512 @@
+{
+  "id": "pilot-philippines-2026",
+  "country": "Philippines",
+  "asOf": "2026",
+  "mode": "desk",
+  "assessors": [
+    "Kurt Godinez (draft)"
+  ],
+  "framework": "0.1-draft-2026-11-21",
+  "summary": "Strong on rules and process (law, conflict review, scored priority list, AGREE II threshold, payer link); weak on single funding channel, nominator-driven scoring, local data.",
+  "sources": [
+    {
+      "id": "16",
+      "title": "DOH Philippines 2024 - Medium-term clinical practice guideline agenda 2025-2029",
+      "note": "'agenda' = this file, printed pages"
+    },
+    {
+      "title": "Republic Act 11223, Universal Health Care Act (2019)",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocsfriendly/2/86448"
+    },
+    {
+      "title": "Dans et al. 2021, Technical capacity mapping for CPG development in the Philippines",
+      "url": "https://actamedicaphilippina.upm.edu.ph/index.php/acta/article/view/5404"
+    },
+    {
+      "title": "PhilHealth Circular 2024-0007, Z Benefits Package for Breast Cancer",
+      "url": "https://www.philhealth.gov.ph/circulars/2024/PC2024-0007.pdf"
+    },
+    {
+      "title": "HTA Philippines 2026, osimertinib full assessment terms of reference",
+      "url": "https://hta.dost.gov.ph/wp-content/uploads/2026/05/2026-Batch-2-Full-HTA-Osimertinib-.pdf"
+    },
+    {
+      "title": "DOH Administrative Order 2020-0034, continuous quality improvement",
+      "url": "https://law.upd.edu.ph/wp-content/uploads/2020/08/DOH-AO-No-2020-0034.pdf"
+    },
+    {
+      "title": "Elepaño et al. 2023, adherence to local COVID-19 guideline",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11522337"
+    },
+    {
+      "title": "GRADE-ADOLOPMENT implementation evaluation, Cochrane 2024 abstract",
+      "url": "https://abstracts.cochrane.org/2024-prague-global-evidence-summit/evaluating-implementation-grade-adolopment-framework-development"
+    }
+  ],
+  "ratings": {
+    "1.1": {
+      "stage": 3,
+      "evidence": [
+        {
+          "text": "Universal Health Care Act 2019, Section 27(c): the Department of Health sets clinical standards through guidelines, with societies and academe"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "1.2": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Three orders in five years: 2018-0019, 2021-0020, 2023-0002"
+        }
+      ],
+      "note": "",
+      "missing": "Why each was replaced"
+    },
+    "1.3": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Disease Prevention and Control Bureau oversees; National Practice Guidelines Secretariat (agenda pp. 5, 24)"
+        }
+      ],
+      "note": "",
+      "missing": "Staff numbers, decision rights"
+    },
+    "1.4": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Any rule against post-panel changes"
+    },
+    "1.5": {
+      "stage": 3,
+      "evidence": [
+        {
+          "text": "Programme started 2018 and was re-issued in 2023 and given a 2024 agenda after the 2022 change of government"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "1.6": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "15 organisations incl. PhilHealth, the Health Technology Assessment Council, municipal health officers and a patient group, but on the topic committee only (agenda p. 5)"
+        }
+      ],
+      "note": "",
+      "missing": "Seats in programme governance"
+    },
+    "1.7": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Mandate in the flagship health law; Secretary's foreword to the agenda"
+        }
+      ],
+      "note": "",
+      "missing": "Budget defended over time"
+    },
+    "2.1": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Department of Health funds the top 50 topics, 10 a year (agenda p. 66)"
+        }
+      ],
+      "note": "",
+      "missing": "Peso amount per year"
+    },
+    "2.2": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Recurrent budget line"
+    },
+    "2.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Topics ranked 51-75 are endorsed to development partners and professional societies for funding (agenda p. 66)"
+        }
+      ],
+      "note": "",
+      "missing": "Funding disclosure per guideline"
+    },
+    "2.4": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "All public funding goes through UP National Institutes of Health \"until enabling mechanisms are in place\" (agenda p. 81)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "3.1": {
+      "stage": 3,
+      "evidence": [
+        {
+          "text": "Five weighted criteria from a scoping review, scheduled annual review (agenda pp. 17-21, 66)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "3.2": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "116 nominations from societies, pharmaceutical companies, hospitals and programmes (agenda p. 19)"
+        }
+      ],
+      "note": "",
+      "missing": "Share from industry"
+    },
+    "3.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Scored \"primarily\" from the nomination form; news articles and lecture videos accepted (agenda pp. 21-22)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "3.4": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "15 organisations, 3 scorers per cluster, 75% consensus (agenda pp. 19, 22-23)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "3.5": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Burden weighted 30 of 100 points, but 113 of 116 nominations were adult (agenda pp. 19-20)"
+        }
+      ],
+      "note": "",
+      "missing": "Burden match of the final 50"
+    },
+    "3.6": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Top 50 scheduled for funding; local data gaps flagged for research (agenda pp. 65-66)"
+        }
+      ],
+      "note": "",
+      "missing": "Topics started on time"
+    },
+    "4.1": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "74 people in 45 institutions able to develop guidelines (Dans et al., 2021)"
+        }
+      ],
+      "note": "",
+      "missing": "Current count"
+    },
+    "4.2": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "45 institutions capable, but one receives all public guideline funding"
+        }
+      ],
+      "note": "",
+      "missing": "Share of output by institution"
+    },
+    "4.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "About half able to handle equity, one third with conflict-of-interest experience (Dans et al.)"
+        }
+      ],
+      "note": "",
+      "missing": "Costing skills"
+    },
+    "4.4": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Courses, completions"
+    },
+    "4.5": {
+      "stage": "unknown",
+      "evidence": [
+        {
+          "text": "Plan is 10 a year; members cite \"lengthy timelines\" (agenda p. 30)"
+        }
+      ],
+      "note": "",
+      "missing": "Published per year"
+    },
+    "5.1": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "2018 national manual; 2021 order covers development, adoption and dissemination"
+        }
+      ],
+      "note": "",
+      "missing": "Last manual update"
+    },
+    "5.2": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Database access outside UP"
+    },
+    "5.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Missing local data named as the main bottleneck; national health data repository still being built (agenda p. 64)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "5.4": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Periodic health examination guidelines adapted with GRADE-ADOLOPMENT"
+        }
+      ],
+      "note": "",
+      "missing": "Counts by route"
+    },
+    "5.5": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "National guidelines must reach 75% on AGREE II rigour and editorial independence"
+        }
+      ],
+      "note": "",
+      "missing": "Share passing"
+    },
+    "5.6": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Old guidelines re-nominated for update (neonatal sepsis 2019, transfusion 2009) rather than on a set cycle (agenda pp. 31, 45)"
+        }
+      ],
+      "note": "",
+      "missing": "Review interval"
+    },
+    "6.1": {
+      "stage": 3,
+      "evidence": [
+        {
+          "text": "Independent review committee; financial versus non-financial rules (agenda pp. 19-20)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "6.2": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Financial conflicts excluded at nomination; all non-financial \"Allowed; Broadcast\", incl. a society's Novartis partnership (agenda pp. 10-11)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "6.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Topic nominators may sit on the steering committee or consensus panel (agenda p. 81)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "6.4": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Committee conflicts published; public guideline platform"
+        }
+      ],
+      "note": "",
+      "missing": "Per-guideline panels and funding"
+    },
+    "6.5": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Public consultation, 53 stakeholders, 7 appeals, no changes (agenda pp. 23-24)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "7.1": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Breast cancer package protocols are \"based on the Clinical Practice Guidelines\"; contracted hospitals must adopt the pathway (PhilHealth Circular 2024-0007)"
+        }
+      ],
+      "note": "",
+      "missing": "Other packages"
+    },
+    "7.2": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "2026 osimertinib assessment calls for a guideline update; guideline drugs missing from the formulary, talks ongoing (agenda p. 64)"
+        }
+      ],
+      "note": "",
+      "missing": ""
+    },
+    "7.3": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Quality-improvement order requires hospitals to monitor compliance with guidelines and pathways (Order 2020-0034)"
+        }
+      ],
+      "note": "",
+      "missing": "Whether it is audited"
+    },
+    "7.4": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "21 contracted facilities for the breast cancer package"
+        }
+      ],
+      "note": "",
+      "missing": "Coverage of the population"
+    },
+    "7.5": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Stricter review for reimbursed topics"
+    },
+    "8.1": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Plan and owner per guideline"
+    },
+    "8.2": {
+      "stage": "unknown",
+      "evidence": [
+        {
+          "text": "Not found; likely weak point under devolution"
+        }
+      ],
+      "note": "",
+      "missing": "Local adoption mechanism"
+    },
+    "8.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "One adherence study (COVID-19, two tertiary hospitals)"
+        }
+      ],
+      "note": "",
+      "missing": "Any routine measure"
+    },
+    "8.4": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Online guideline platform, Department Circulars, social media"
+        }
+      ],
+      "note": "",
+      "missing": "Use data"
+    },
+    "8.5": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Barrier study of the adaptation project"
+        }
+      ],
+      "note": "",
+      "missing": "Routine barrier check"
+    },
+    "8.6": {
+      "stage": "unknown",
+      "evidence": [],
+      "note": "Not found",
+      "missing": "Clinician survey, competing society guidelines"
+    },
+    "9.1": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "Agenda will track funded topics, money allocated, guidelines used in policy (agenda p. 66)"
+        }
+      ],
+      "note": "",
+      "missing": "Published reports"
+    },
+    "9.2": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "One adherence study"
+        }
+      ],
+      "note": "",
+      "missing": "Outcome data"
+    },
+    "9.3": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "2017 situational analysis and 2021 capacity mapping predate the expanded programme"
+        }
+      ],
+      "note": "",
+      "missing": "Evaluation since 2023"
+    },
+    "9.4": {
+      "stage": 1,
+      "evidence": [
+        {
+          "text": "Agenda asks academe to align research; gaps listed (agenda pp. 16, 65)"
+        }
+      ],
+      "note": "",
+      "missing": "Link to the national research agenda"
+    },
+    "9.5": {
+      "stage": 2,
+      "evidence": [
+        {
+          "text": "2017 analysis led to the manual and programme; agenda built on a scoping review"
+        }
+      ],
+      "note": "",
+      "missing": "Basis for each new order"
+    }
+  },
+  "assessedBy": "self",
+  "assessedByNote": "Desk score by the CERC team from public documents; not validated by the country"
+}

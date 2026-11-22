@@ -1,0 +1,1084 @@
+{
+  "id": "cerc-tor3-country-guideline-capacity",
+  "version": "0.1-draft-2026-11-21",
+  "status": "DRAFT for working-group review (30 Nov - 4 Dec 2026). Not validated.",
+  "question": "Can this country plan, produce or adapt, and use trustworthy guidelines, and which strategy should it choose next: develop from scratch or contextualise existing guidelines?",
+  "principle": "Function over paper: a document that says something exists scores nothing on its own.",
+  "scale": {
+    "source": "Adapted from WHO (2023) Supporting the routine use of evidence during the policy-making process: a WHO checklist, pp. 22-33, and PAHO (2023) Handbook, p. 40",
+    "levels": [
+      {
+        "value": 0,
+        "label": "Awareness",
+        "description": "The need is recognised; nothing in place yet.",
+        "look": "Absent; no legitimacy"
+      },
+      {
+        "value": 1,
+        "label": "Development",
+        "description": "First structures and practices, isolated or person-dependent, often project-funded.",
+        "look": "Vulnerable; low legitimacy"
+      },
+      {
+        "value": 2,
+        "label": "Assessment",
+        "description": "Accepted and running, but structures and rules can still be changed or dissolved easily.",
+        "look": "Anchored; medium legitimacy"
+      },
+      {
+        "value": 3,
+        "label": "Maturation",
+        "description": "Routine and taken for granted: legal mandate, sustainable funding, retained capacity; survives change of government.",
+        "look": "Resilient; high legitimacy"
+      }
+    ],
+    "special": [
+      {
+        "value": "unknown",
+        "label": "No evidence",
+        "description": "Not scorable from the evidence available. Shown, never treated as 0."
+      },
+      {
+        "value": "na",
+        "label": "Not applicable",
+        "description": "Does not apply to this country's system (e.g. subnational uptake in a small centralised system)."
+      }
+    ]
+  },
+  "domains": [
+    {
+      "id": "1",
+      "title": "Mandate and governance",
+      "definition": "The legal and institutional basis that makes guideline work a standing government function: who is mandated, through which binding instrument, and whether it survives changes of government.",
+      "subdomains": [
+        {
+          "id": "1.1",
+          "title": "Legal mandate",
+          "definition": "A law or decree that assigns guideline work to a public body.",
+          "questions": [
+            {
+              "id": "1.1.q1",
+              "text": "Which law or decree mandates guidelines, and in which section?",
+              "gate": null
+            },
+            {
+              "id": "1.1.q2",
+              "text": "Does it name the body responsible?",
+              "gate": null
+            },
+            {
+              "id": "1.1.q3",
+              "text": "When was it enacted?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "1.2",
+          "title": "Operational instrument",
+          "definition": "The binding order, manual or regulation that turns the mandate into a working process.",
+          "questions": [
+            {
+              "id": "1.2.q1",
+              "text": "Which instrument operationalises the mandate (order, manual, regulation), and when was it issued?",
+              "gate": {
+                "from": 0,
+                "to": 1
+              }
+            },
+            {
+              "id": "1.2.q2",
+              "text": "How many times has it been reissued or replaced, and why?",
+              "gate": {
+                "from": 2,
+                "to": 3
+              }
+            },
+            {
+              "id": "1.2.q3",
+              "text": "Does it specify steps, roles and timelines, or only principles?",
+              "gate": {
+                "from": 1,
+                "to": 2
+              }
+            }
+          ],
+          "anchors": {
+            "0": "No instrument; the need is recognised.",
+            "1": "A first order or manual exists; the process runs ad hoc or as a project.",
+            "2": "The order is in force and has run at least one full cycle, but it is still being reissued or restructured.",
+            "3": "Stable through at least one change of government, built into planning, revised only after an evaluation."
+          }
+        },
+        {
+          "id": "1.3",
+          "title": "Designated entity",
+          "definition": "A named unit that runs the programme, with staff and decision rights.",
+          "questions": [
+            {
+              "id": "1.3.q1",
+              "text": "Which unit runs the programme, and where does it sit in the ministry?",
+              "gate": null
+            },
+            {
+              "id": "1.3.q2",
+              "text": "Can it approve or reject a guideline, or only advise?",
+              "gate": null
+            },
+            {
+              "id": "1.3.q3",
+              "text": "How many staff does it have?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "1.4",
+          "title": "Editorial independence",
+          "definition": "Protection of recommendations from political or commercial pressure.",
+          "questions": [
+            {
+              "id": "1.4.q1",
+              "text": "Does any rule protect recommendations from being changed by the ministry or funders after the panel decides?",
+              "gate": null
+            },
+            {
+              "id": "1.4.q2",
+              "text": "Has a recommendation ever been overridden, and how was it handled?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "1.5",
+          "title": "Continuity",
+          "definition": "The programme keeps running across changes of minister or government.",
+          "questions": [
+            {
+              "id": "1.5.q1",
+              "text": "Has the programme survived at least one change of government?",
+              "gate": null
+            },
+            {
+              "id": "1.5.q2",
+              "text": "Which stage is it in: being set up, partly routine, or fully routine (PAHO's three institutionalisation phases)?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "1.6",
+          "title": "Participation in governance",
+          "definition": "Who outside the ministry sits in the programme's decisions.",
+          "questions": [
+            {
+              "id": "1.6.q1",
+              "text": "Which societies, academic bodies, payers and patient groups have a formal seat?",
+              "gate": null
+            },
+            {
+              "id": "1.6.q2",
+              "text": "Are subnational health authorities represented?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "1.7",
+          "title": "Political commitment",
+          "definition": "Visible, sustained backing for the programme from senior decision makers.",
+          "questions": [
+            {
+              "id": "1.7.q1",
+              "text": "Do national health strategies or plans name the guideline programme as a priority?",
+              "gate": null
+            },
+            {
+              "id": "1.7.q2",
+              "text": "Has a minister or senior official publicly backed it, or defended a recommendation under pressure?",
+              "gate": null
+            },
+            {
+              "id": "1.7.q3",
+              "text": "Did that backing continue after the last change of leadership?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Financing",
+      "definition": "The money that pays for guideline work: how much, from where, how stable, and through how many channels.",
+      "subdomains": [
+        {
+          "id": "2.1",
+          "title": "Dedicated budget",
+          "definition": "A budget line for guideline development and updating.",
+          "questions": [
+            {
+              "id": "2.1.q1",
+              "text": "Is there a named budget line, and how much was allocated in each of the last three years?",
+              "gate": null
+            },
+            {
+              "id": "2.1.q2",
+              "text": "How many guidelines did that fund per year?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "2.2",
+          "title": "Stability",
+          "definition": "Funding that does not depend on one minister, one project or one donor.",
+          "questions": [
+            {
+              "id": "2.2.q1",
+              "text": "Is the budget recurrent or project-based?",
+              "gate": null
+            },
+            {
+              "id": "2.2.q2",
+              "text": "What share comes from external donors or development partners?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "2.3",
+          "title": "Source integrity",
+          "definition": "Funding sources that cannot steer recommendations.",
+          "questions": [
+            {
+              "id": "2.3.q1",
+              "text": "Does any industry money reach guideline development directly or through societies?",
+              "gate": null
+            },
+            {
+              "id": "2.3.q2",
+              "text": "Are all funding sources published for each guideline?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "2.4",
+          "title": "Funding channels",
+          "definition": "How money reaches developers, and how many developers can receive it.",
+          "questions": [
+            {
+              "id": "2.4.q1",
+              "text": "Through how many institutions can public guideline money flow?",
+              "gate": null
+            },
+            {
+              "id": "2.4.q2",
+              "text": "Can private or non-government developers be contracted?",
+              "gate": null
+            },
+            {
+              "id": "2.4.q3",
+              "text": "What happens to the pipeline if the main channel stalls?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Priority setting",
+      "definition": "How a country decides which guidelines to develop or update, and whether the chosen topics match the population's needs rather than who nominated them.",
+      "subdomains": [
+        {
+          "id": "3.1",
+          "title": "Process and criteria",
+          "definition": "A documented, repeatable method with explicit criteria and weights.",
+          "questions": [
+            {
+              "id": "3.1.q1",
+              "text": "Is there a written prioritisation method, and which criteria and weights does it use?",
+              "gate": null
+            },
+            {
+              "id": "3.1.q2",
+              "text": "Was it based on an existing tool (WHO criteria, PRIO, PriGPC, NICE)?",
+              "gate": null
+            },
+            {
+              "id": "3.1.q3",
+              "text": "How often is the list reviewed?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "3.2",
+          "title": "Topic sources",
+          "definition": "Who can put a topic on the long list.",
+          "questions": [
+            {
+              "id": "3.2.q1",
+              "text": "Who nominated topics in the last cycle, by type (societies, industry, hospitals, ministry programmes, public)?",
+              "gate": null
+            },
+            {
+              "id": "3.2.q2",
+              "text": "Can industry nominate?",
+              "gate": null
+            },
+            {
+              "id": "3.2.q3",
+              "text": "Are topics also generated from burden data, not only nominations?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "3.3",
+          "title": "Evidence used for scoring",
+          "definition": "Who supplies the information the scorers rely on.",
+          "questions": [
+            {
+              "id": "3.3.q1",
+              "text": "Is the evidence for each topic compiled by an independent secretariat or by the nominator?",
+              "gate": null
+            },
+            {
+              "id": "3.3.q2",
+              "text": "What counts as acceptable evidence (peer-reviewed data only, or also position papers and news)?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "3.4",
+          "title": "Decision makers",
+          "definition": "Who scores and approves the list, and how many people judge each topic.",
+          "questions": [
+            {
+              "id": "3.4.q1",
+              "text": "How many people sit on the committee, and from which organisations?",
+              "gate": null
+            },
+            {
+              "id": "3.4.q2",
+              "text": "How many people score each topic before the plenary?",
+              "gate": null
+            },
+            {
+              "id": "3.4.q3",
+              "text": "What vote counts as consensus?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "3.5",
+          "title": "Fit to need",
+          "definition": "Whether the final list matches the burden of disease across age groups and populations.",
+          "questions": [
+            {
+              "id": "3.5.q1",
+              "text": "What share of the top 20 causes of death and disability have a current national guideline or a slot on the agenda?",
+              "gate": null
+            },
+            {
+              "id": "3.5.q2",
+              "text": "How are children, rare diseases and vulnerable groups represented on the list?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "3.6",
+          "title": "Link to funding and research",
+          "definition": "Whether a priority actually gets funded, and whether evidence gaps feed a research agenda.",
+          "questions": [
+            {
+              "id": "3.6.q1",
+              "text": "What share of prioritised topics were funded and started on schedule?",
+              "gate": null
+            },
+            {
+              "id": "3.6.q2",
+              "text": "Are evidence gaps found during prioritisation passed to a national research agenda?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Workforce and production capacity",
+      "definition": "The people and institutions able to develop or adapt guidelines to standard, how many there are, and how concentrated they are.",
+      "subdomains": [
+        {
+          "id": "4.1",
+          "title": "Methodologists",
+          "definition": "People trained to run systematic reviews, GRADE (the standard method for rating evidence certainty) and panel processes.",
+          "questions": [
+            {
+              "id": "4.1.q1",
+              "text": "How many people in the country have led or co-led a guideline to standard in the last five years?",
+              "gate": null
+            },
+            {
+              "id": "4.1.q2",
+              "text": "Has anyone mapped this capacity, and when?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "4.2",
+          "title": "Institutions",
+          "definition": "Organisations that can deliver a complete guideline.",
+          "questions": [
+            {
+              "id": "4.2.q1",
+              "text": "How many institutions can deliver a guideline end to end?",
+              "gate": null
+            },
+            {
+              "id": "4.2.q2",
+              "text": "What share of national guidelines in the last five years came from the single largest one?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "4.3",
+          "title": "Specialised skills",
+          "definition": "Skills beyond methods: equity analysis, costing, conflict-of-interest management, patient engagement.",
+          "questions": [
+            {
+              "id": "4.3.q1",
+              "text": "How many developers have experience with equity analysis, costing and managing conflicts of interest?",
+              "gate": null
+            },
+            {
+              "id": "4.3.q2",
+              "text": "Are health economists involved routinely?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "4.4",
+          "title": "Training pipeline",
+          "definition": "How new methodologists and panel contributors are trained, rewarded and kept.",
+          "questions": [
+            {
+              "id": "4.4.q1",
+              "text": "Is there a recurring training course or degree track?",
+              "gate": null
+            },
+            {
+              "id": "4.4.q2",
+              "text": "How many people completed it in the last three years?",
+              "gate": null
+            },
+            {
+              "id": "4.4.q3",
+              "text": "How is staff turnover handled?",
+              "gate": null
+            },
+            {
+              "id": "4.4.q4",
+              "text": "How are contributors' time and work recognised: payment, continuing-education credits, authorship, or protected time from their employer?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "4.5",
+          "title": "Throughput",
+          "definition": "What the system produces per year against its plan.",
+          "questions": [
+            {
+              "id": "4.5.q1",
+              "text": "How many guidelines were published or updated per year in the last three years?",
+              "gate": null
+            },
+            {
+              "id": "4.5.q2",
+              "text": "How does that compare with the planned number?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Methods, evidence and contextualisation track record",
+      "definition": "The standard methods a country uses, the evidence and local data it can reach, and its record of developing, adopting or adapting guidelines. This domain carries the tool's core output: whether to develop from scratch or contextualise.",
+      "subdomains": [
+        {
+          "id": "5.1",
+          "title": "Methods standard",
+          "definition": "A national manual that sets how guidelines are made, adopted or adapted.",
+          "questions": [
+            {
+              "id": "5.1.q1",
+              "text": "Is there a national methods manual, and when was it last updated?",
+              "gate": null
+            },
+            {
+              "id": "5.1.q2",
+              "text": "Does it cover adoption and adaptation (for example GRADE-ADOLOPMENT), or only development from scratch?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "5.2",
+          "title": "Access to evidence",
+          "definition": "Access to databases, full texts and existing guidelines from other countries and WHO.",
+          "questions": [
+            {
+              "id": "5.2.q1",
+              "text": "Do developers have institutional access to the main bibliographic databases?",
+              "gate": null
+            },
+            {
+              "id": "5.2.q2",
+              "text": "Is there a routine search of existing international guidelines before a new one starts?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "5.3",
+          "title": "Local data",
+          "definition": "Country data on burden, costs, practice variation and values, used to contextualise.",
+          "questions": [
+            {
+              "id": "5.3.q1",
+              "text": "Which local data sources were used in the last three guidelines (burden, cost, practice, patient values)?",
+              "gate": null
+            },
+            {
+              "id": "5.3.q2",
+              "text": "Where data were missing, what was used instead?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "5.4",
+          "title": "Contextualisation history",
+          "definition": "The country's record of adopting or adapting existing guidelines, and what came of it.",
+          "questions": [
+            {
+              "id": "5.4.q1",
+              "text": "How many national guidelines in the last five years were developed from scratch, adopted or adapted?",
+              "gate": null
+            },
+            {
+              "id": "5.4.q2",
+              "text": "For adapted ones, which source guidelines were used and what was changed?",
+              "gate": null
+            },
+            {
+              "id": "5.4.q3",
+              "text": "Were any adaptations later abandoned, and why?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "5.5",
+          "title": "Quality of output",
+          "definition": "Whether finished guidelines meet an appraisal standard.",
+          "questions": [
+            {
+              "id": "5.5.q1",
+              "text": "Are national guidelines appraised with AGREE II (the standard guideline appraisal instrument), and what threshold must they pass?",
+              "gate": null
+            },
+            {
+              "id": "5.5.q2",
+              "text": "What share passed in the last cycle?",
+              "gate": null
+            },
+            {
+              "id": "5.5.q3",
+              "text": "What share of appraised guidelines came through the national priority list?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "5.6",
+          "title": "Updating",
+          "definition": "A process for keeping guidelines current.",
+          "questions": [
+            {
+              "id": "5.6.q1",
+              "text": "Is there a set review interval?",
+              "gate": null
+            },
+            {
+              "id": "5.6.q2",
+              "text": "What share of national guidelines is older than five years without review?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Integrity: conflicts of interest and transparency",
+      "definition": "The rules and practice that keep recommendations free of undue influence, and make the process visible to anyone outside it.",
+      "subdomains": [
+        {
+          "id": "6.1",
+          "title": "Conflict-of-interest policy",
+          "definition": "A written rule for declaring, classifying and managing interests.",
+          "questions": [
+            {
+              "id": "6.1.q1",
+              "text": "Is there a written policy, reviewed by a body independent of the panel?",
+              "gate": null
+            },
+            {
+              "id": "6.1.q2",
+              "text": "How does it classify financial versus non-financial interests?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "6.2",
+          "title": "Conflict-of-interest practice",
+          "definition": "What actually happens to people who declare interests.",
+          "questions": [
+            {
+              "id": "6.2.q1",
+              "text": "In the last cycle, how many declared interests led to exclusion or recusal, and how many to disclosure only?",
+              "gate": null
+            },
+            {
+              "id": "6.2.q2",
+              "text": "How are indirect ties classified, such as a member's society partnering with a company?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "6.3",
+          "title": "Role separation",
+          "definition": "Keeping those who propose a topic from controlling its recommendations.",
+          "questions": [
+            {
+              "id": "6.3.q1",
+              "text": "Can the person or body that nominated a topic sit on that guideline's steering committee or panel?",
+              "gate": null
+            },
+            {
+              "id": "6.3.q2",
+              "text": "If so, under what limits?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "6.4",
+          "title": "Public disclosure",
+          "definition": "Publication of methods, panel members, interests and funding for every guideline.",
+          "questions": [
+            {
+              "id": "6.4.q1",
+              "text": "For each national guideline, are panel members, declared interests and funding published?",
+              "gate": null
+            },
+            {
+              "id": "6.4.q2",
+              "text": "Is there a public repository of national guidelines?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "6.5",
+          "title": "Appeals and external review",
+          "definition": "A route for outsiders to challenge priorities or recommendations.",
+          "questions": [
+            {
+              "id": "6.5.q1",
+              "text": "Is there public consultation before final approval?",
+              "gate": null
+            },
+            {
+              "id": "6.5.q2",
+              "text": "How many appeals were received in the last cycle, and how many changed anything?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Link to decisions and payment",
+      "definition": "Whether guidelines decide something that matters: what insurers pay for, what the essential medicines list contains, what health technology assessment recommends, and what facilities are licensed or accredited against.",
+      "subdomains": [
+        {
+          "id": "7.1",
+          "title": "Payer linkage",
+          "definition": "Benefit packages or reimbursement rules that cite national guidelines.",
+          "questions": [
+            {
+              "id": "7.1.q1",
+              "text": "Which benefit packages or payment rules cite a national guideline?",
+              "gate": null
+            },
+            {
+              "id": "7.1.q2",
+              "text": "Must facilities adopt the guideline's pathway to be paid?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "7.2",
+          "title": "Medicines and technology decisions",
+          "definition": "Two-way links between guidelines, the essential medicines list and health technology assessment.",
+          "questions": [
+            {
+              "id": "7.2.q1",
+              "text": "Do health technology assessments use national guidelines to define standard of care?",
+              "gate": null
+            },
+            {
+              "id": "7.2.q2",
+              "text": "Has an assessment ever triggered a guideline update, or the reverse?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "7.3",
+          "title": "Regulation and accreditation",
+          "definition": "Guidelines used as standards in licensing, accreditation or quality programmes.",
+          "questions": [
+            {
+              "id": "7.3.q1",
+              "text": "Do licensing or accreditation standards require adherence to national guidelines?",
+              "gate": null
+            },
+            {
+              "id": "7.3.q2",
+              "text": "Is adherence audited?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "7.4",
+          "title": "Reach of the link",
+          "definition": "How many facilities and patients the link actually binds.",
+          "questions": [
+            {
+              "id": "7.4.q1",
+              "text": "How many facilities are contracted under guideline-linked packages?",
+              "gate": null
+            },
+            {
+              "id": "7.4.q2",
+              "text": "What share of the target population can reach them?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "7.5",
+          "title": "Lobbying exposure",
+          "definition": "Protection against capture once guidelines decide money.",
+          "questions": [
+            {
+              "id": "7.5.q1",
+              "text": "Where a guideline drives reimbursement, are its panel's conflicts reviewed more strictly?",
+              "gate": null
+            },
+            {
+              "id": "7.5.q2",
+              "text": "Is there a rule separating payer negotiations from panel decisions?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Implementation and reach",
+      "definition": "How guidelines get from the national level into practice in regions and facilities, and how widely they are known and used.",
+      "subdomains": [
+        {
+          "id": "8.1",
+          "title": "National implementation policy",
+          "definition": "A plan that comes with each guideline: who owns implementation after release, and with what resources.",
+          "questions": [
+            {
+              "id": "8.1.q1",
+              "text": "Does each national guideline ship with an implementation plan and budget?",
+              "gate": null
+            },
+            {
+              "id": "8.1.q2",
+              "text": "Who owns implementation after release, beyond dissemination?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "8.2",
+          "title": "Subnational uptake",
+          "definition": "Regional or local health authorities adopting national guidelines into their own programmes.",
+          "questions": [
+            {
+              "id": "8.2.q1",
+              "text": "Do regional or local authorities have a mechanism to adopt national guidelines?",
+              "gate": null
+            },
+            {
+              "id": "8.2.q2",
+              "text": "In a devolved system, can they ignore them?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "8.3",
+          "title": "Facility uptake",
+          "definition": "Hospitals and clinics turning guidelines into local pathways.",
+          "questions": [
+            {
+              "id": "8.3.q1",
+              "text": "What share of facilities have a written pathway based on a national guideline for priority conditions?",
+              "gate": null
+            },
+            {
+              "id": "8.3.q2",
+              "text": "Is there any measure of adherence?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "8.4",
+          "title": "Dissemination and tools",
+          "definition": "Formats that reach users: summaries, apps, training, a public repository.",
+          "questions": [
+            {
+              "id": "8.4.q1",
+              "text": "Through which channels are guidelines disseminated?",
+              "gate": null
+            },
+            {
+              "id": "8.4.q2",
+              "text": "Is use of these channels measured?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "8.5",
+          "title": "Barriers",
+          "definition": "Systematic identification of what blocks use, such as drugs not stocked or not covered.",
+          "questions": [
+            {
+              "id": "8.5.q1",
+              "text": "Are barriers assessed before or after release?",
+              "gate": null
+            },
+            {
+              "id": "8.5.q2",
+              "text": "Has a recommendation been changed because it could not be implemented?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "8.6",
+          "title": "Professional trust and acceptance",
+          "definition": "Whether clinicians and managers see national guidelines as credible and their own.",
+          "questions": [
+            {
+              "id": "8.6.q1",
+              "text": "Has any survey measured clinicians' awareness of and trust in national guidelines?",
+              "gate": null
+            },
+            {
+              "id": "8.6.q2",
+              "text": "Do professional societies endorse national guidelines, or issue competing ones on the same topic?",
+              "gate": null
+            },
+            {
+              "id": "8.6.q3",
+              "text": "Are national guidelines taught in medical and nursing curricula?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Monitoring, evaluation and evidence generation",
+      "definition": "Whether the programme measures its own performance and effect, learns from it, and generates the local evidence its guidelines lack.",
+      "subdomains": [
+        {
+          "id": "9.1",
+          "title": "Programme indicators",
+          "definition": "A defined set of structure, process and outcome indicators for the programme.",
+          "questions": [
+            {
+              "id": "9.1.q1",
+              "text": "Which indicators are tracked (guidelines funded, published, on time, money spent)?",
+              "gate": null
+            },
+            {
+              "id": "9.1.q2",
+              "text": "Are they reported publicly, and how often?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "9.2",
+          "title": "Adherence and outcomes",
+          "definition": "Measurement of whether guidelines change practice and health results.",
+          "questions": [
+            {
+              "id": "9.2.q1",
+              "text": "Has adherence to any national guideline been measured in the last five years?",
+              "gate": null
+            },
+            {
+              "id": "9.2.q2",
+              "text": "Has any outcome change been attributed to a guideline?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "9.3",
+          "title": "Programme evaluation",
+          "definition": "Periodic external review of the programme as a whole.",
+          "questions": [
+            {
+              "id": "9.3.q1",
+              "text": "Has the programme been evaluated independently, and when?",
+              "gate": null
+            },
+            {
+              "id": "9.3.q2",
+              "text": "What changed as a result?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "9.4",
+          "title": "Research agenda link",
+          "definition": "A national research agenda that targets the evidence gaps guidelines expose.",
+          "questions": [
+            {
+              "id": "9.4.q1",
+              "text": "Is there a national research-for-health agenda, and does it list guideline evidence gaps?",
+              "gate": null
+            },
+            {
+              "id": "9.4.q2",
+              "text": "Does it meet PAHO's checklist for research agendas?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        },
+        {
+          "id": "9.5",
+          "title": "Learning loop",
+          "definition": "Lessons fed back into methods, priorities and governance.",
+          "questions": [
+            {
+              "id": "9.5.q1",
+              "text": "When the programme's orders or methods were revised, was the revision based on an evaluation?",
+              "gate": null
+            },
+            {
+              "id": "9.5.q2",
+              "text": "Is there a documented lessons-learned process?",
+              "gate": null
+            }
+          ],
+          "anchors": null
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "subdomain": "stage / 3 * 100",
+    "domain": "mean of rated subdomains",
+    "national": "mean of domain scores",
+    "weights": null,
+    "minCoverage": 0.6,
+    "unknown": "dropped from means, listed, reflected in coverage and in the sensitivity range (unknowns at 0 and at 3)",
+    "na": "dropped, not applicable",
+    "status": "Proposed 22 Nov 2026; to be confirmed by the working group"
+  }
+}

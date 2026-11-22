@@ -1,0 +1,19 @@
+:root {
+  --paper: #F5F2EA;      /* app background */
+  --surface: #FFFFFF;    /* cards, panels */
+  --ink: #17212B;        /* text */
+  --ink-muted: #5B6672;  /* secondary text */
+  --rule: #D9D3C7;       /* hairlines, borders */
+  --accent: #0F5E5A;     /* primary actions, focus ring, selected */
+  --gap: #B7791F;        /* warnings: rated without evidence, blocking subdomains */
+  --stage-0: #ECE6D9;
+  --stage-1: #BFD8D1;
+  --stage-2: #5E9E92;
+  --stage-3: #0F5E5A;
+  --unknown-hatch: #8A8F96; /* 45° hatch over --surface */
+  --radius: 4px;
+  --space: 8px;          /* 8-point grid */
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
