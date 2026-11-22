@@ -15,7 +15,6 @@ export default defineConfig({
   webServer: {
     command: `npm run build && npm run preview -- --port ${PORT}`,
     url: baseURL,
-    port: PORT,
     reuseExistingServer: true,
   },
 });
