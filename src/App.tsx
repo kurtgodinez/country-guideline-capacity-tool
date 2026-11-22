@@ -7,6 +7,8 @@ import { NAV, STRINGS } from './strings';
 import { HatchDefs } from './components/HatchDefs';
 import { Home } from './screens/Home';
 import { FrameworkScreen } from './screens/Framework';
+import { Profile } from './screens/Profile';
+import { Compare } from './screens/Compare';
 import { Placeholder } from './screens/Placeholder';
 import { Workspace } from './screens/Workspace/Workspace';
 import styles from './App.module.css';
@@ -41,10 +43,11 @@ export default function App() {
     page = null;
   } else if (route.name === 'home') page = <Home />;
   else if (route.name === 'framework') page = <FrameworkScreen />;
-  else if (route.name === 'compare') page = <Placeholder title={NAV.compare} />;
+  else if (route.name === 'compare') page = <Compare />;
   else if (route.name === 'assessment') {
     if (!current) page = ready ? <p>Assessment not found. <a href={paths.home()}>Back to Home</a>.</p> : null;
     else if (route.screen === 'workspace') page = <Workspace key={current.id} assessmentId={current.id} />;
+    else if (route.screen === 'profile') page = <Profile key={current.id} assessmentId={current.id} />;
     else page = <Placeholder title={`${NAV[route.screen]}: ${current.country}`} />;
   } else page = <p>Page not found. <a href={paths.home()}>Back to Home</a>.</p>;
 

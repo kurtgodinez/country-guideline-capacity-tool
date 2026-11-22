@@ -5,3 +5,4 @@ export { HatchDefs, PATTERN_IDS, patternFill } from './HatchDefs';
 export { HowMadePanel } from './HowMadePanel';
 export { ScoreBadge, ASSESSMENT_TYPE_LABEL } from './ScoreBadge';
 export { StageChip, stageLabel, type ChipValue } from './StageChip';
+export { ProfileStrata, Legend as StrataLegend, GEOM, maxColumns, stripWidth, stripHeight, rowY } from './ProfileStrata';

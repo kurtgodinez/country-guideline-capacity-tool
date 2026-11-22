@@ -1,0 +1,18 @@
+.figure { margin: 0; }
+.wrap { position: relative; }
+.svg { overflow: visible; }
+.domTitle { font-family: var(--font-serif); font-size: 14px; font-weight: 600; fill: var(--ink); }
+.domId { font-family: var(--font-mono); font-size: 12px; font-weight: 400; fill: var(--ink-muted); }
+.domScore { font-family: var(--font-sans); font-size: 12px; fill: var(--ink-muted); }
+.cellLabel { font-family: var(--font-mono); font-size: 12px; font-weight: 600; fill: var(--ink); }
+.mark { font-family: var(--font-mono); font-size: 9px; font-weight: 700; fill: #7a4f0c; }
+.cell { outline: none; cursor: default; }
+.cell:focus-visible rect:first-of-type { stroke: var(--accent); stroke-width: 3; }
+.cell:hover rect:first-of-type { stroke: var(--accent); stroke-width: 2; }
+.tip { position: absolute; transform: translateX(-50%); margin-top: 6px; z-index: 5; width: 260px; max-width: 90vw; background: var(--surface); border: 1px solid var(--ink-muted); border-radius: var(--radius); padding: 8px 12px; font-size: 13px; pointer-events: none; }
+.tipTitle { font-weight: 600; }
+.mono { font-family: var(--font-mono); font-weight: 400; color: var(--ink-muted); }
+.tipEv { color: var(--ink-muted); margin-top: 4px; }
+.tipMissing { color: #7a4f0c; margin-top: 4px; }
+.legend ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 0; margin: 12px 0 0; font-size: 13px; color: var(--ink-muted); }
+.legend li { display: inline-flex; align-items: center; gap: 6px; }
