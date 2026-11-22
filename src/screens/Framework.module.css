@@ -1,0 +1,16 @@
+.muted { color: var(--ink-muted); font-size: 14px; }
+.id { font-family: var(--font-mono); font-size: 0.85em; color: var(--ink-muted); }
+.search { display: grid; gap: 4px; max-width: 480px; margin-bottom: 8px; font-size: 14px; color: var(--ink-muted); }
+.search input { font: inherit; color: var(--ink); padding: 8px; border: 1px solid var(--ink-muted); border-radius: var(--radius); background: var(--surface); }
+.domain { border-top: 1px solid var(--rule); margin-top: 24px; padding-top: 8px; }
+.domain h2 { font-size: 22px; }
+.sub { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 16px; margin: 16px 0; }
+.sub h3 { margin: 0 0 8px; font-size: 18px; }
+.sub h4 { margin: 16px 0 4px; font-size: 14px; font-family: var(--font-sans); color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.questions { margin: 0; padding-left: 24px; }
+.questions li { margin-bottom: 8px; }
+.gate { font-family: var(--font-mono); font-size: 13px; color: var(--accent); }
+.anchors { margin: 0; display: grid; gap: 4px; }
+.anchors dt { font-weight: 600; font-size: 14px; }
+.anchors dd { margin: 0 0 8px; }
+mark { background: #f6e3a8; color: var(--ink); }

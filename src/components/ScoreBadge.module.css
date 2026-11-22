@@ -1,0 +1,8 @@
+.badge { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font: inherit; text-align: left; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: var(--radius); padding: 8px 12px; cursor: pointer; }
+.badge:hover { border-color: var(--accent); }
+.score { font-family: var(--font-serif); font-size: 28px; font-weight: 600; line-height: 1.1; }
+.insufficient { font-size: 18px; color: #7a4f0c; }
+.meta { font-size: 13px; color: var(--ink-muted); }
+.compact { padding: 4px 8px; gap: 0 8px; }
+.compact .score { font-size: 18px; }
+.compact .meta { font-size: 12px; }

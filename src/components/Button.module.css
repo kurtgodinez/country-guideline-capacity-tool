@@ -1,0 +1,7 @@
+.btn { font: inherit; font-size: 14px; line-height: 1.2; padding: 8px 16px; border-radius: var(--radius); border: 1px solid var(--rule); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn:hover:not(:disabled) { border-color: var(--ink-muted); }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.primary:hover:not(:disabled) { background: #0b4a47; border-color: #0b4a47; }
+.danger { color: #8a2b1f; border-color: #8a2b1f; }
+.link { border-color: transparent; background: transparent; color: var(--accent); padding: 4px 8px; text-decoration: underline; }

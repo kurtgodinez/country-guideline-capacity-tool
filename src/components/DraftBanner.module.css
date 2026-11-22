@@ -1,0 +1,1 @@
+.banner { border: 1px solid var(--gap); border-left-width: 4px; background: var(--surface); color: var(--ink); padding: 8px 16px; border-radius: var(--radius); font-size: 14px; margin: 0 0 16px; }
