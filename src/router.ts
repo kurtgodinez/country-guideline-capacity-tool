@@ -11,7 +11,7 @@ export type Route =
   | { name: 'notfound'; path: string };
 
 export function parseHash(hash: string): Route {
-  const path = hash.replace(/^#/, '') || '/';
+  const path = hash.replace(/^#/, '').replace(/\?.*$/, '') || '/';
   if (path === '/' || path === '') return { name: 'home' };
   if (path === '/framework') return { name: 'framework' };
   if (path === '/compare') return { name: 'compare' };

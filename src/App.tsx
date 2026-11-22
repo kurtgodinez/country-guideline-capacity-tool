@@ -8,6 +8,7 @@ import { HatchDefs } from './components/HatchDefs';
 import { Home } from './screens/Home';
 import { FrameworkScreen } from './screens/Framework';
 import { Placeholder } from './screens/Placeholder';
+import { Workspace } from './screens/Workspace/Workspace';
 import styles from './App.module.css';
 
 const SCREEN_ORDER: AssessmentScreen[] = ['workspace', 'profile', 'strategy', 'reconcile', 'report'];
@@ -43,6 +44,7 @@ export default function App() {
   else if (route.name === 'compare') page = <Placeholder title={NAV.compare} />;
   else if (route.name === 'assessment') {
     if (!current) page = ready ? <p>Assessment not found. <a href={paths.home()}>Back to Home</a>.</p> : null;
+    else if (route.screen === 'workspace') page = <Workspace key={current.id} assessmentId={current.id} />;
     else page = <Placeholder title={`${NAV[route.screen]}: ${current.country}`} />;
   } else page = <p>Page not found. <a href={paths.home()}>Back to Home</a>.</p>;
 
